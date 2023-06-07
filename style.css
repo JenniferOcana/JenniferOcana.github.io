@@ -33,8 +33,8 @@ h1 {
     padding: 0 10px;
 }
 a {
-    text-decoration: none;
-    color: white;
+    text-decoration: line;
+    color: rgb(255, 255, 255);
 }
 
 /* main container area beneath menu */
@@ -61,4 +61,29 @@ main {
 }
 h2, h3 {
     margin: 1px;
+}
+  /* portfolio styles */
+  .content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
 }
