@@ -73,6 +73,7 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("left", 450, 1500);
+    createCannon("right", 250,1500);
 
 
 
